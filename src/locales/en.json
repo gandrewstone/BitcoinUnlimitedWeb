@@ -205,7 +205,8 @@
             "reddit2": "Reddit /r/bitcoin_unlimited",
             "slack": "Slack",
             "irc": "#btc on IRC",
-            "issues": "Issues Tracker"
+            "issues": "Issues Tracker",
+            "gpgkeysintro": "please use this GPG keys to communicate sensible info with BU developers"
         }
     },
     "faq": {
@@ -546,8 +547,8 @@
         "bitcoincash": {
             "title": "Official Bitcoin Cash (BCH) Release",
             "download": "Download the latest Bitcoin Cash compatible release of Bitcoin Unlimited",
-            "version": "v1.3.0.1",
-            "date": "May 5, 2018",
+            "version": "v1.4.0.0",
+            "date": "Aug 17, 2018",
             "notes": "This release implements Bitcoin Cash, compliant with the latest hard fork (May 15, 2018), including 32MB blocks, extended OP_RETURN data and additional opcodes",
             "warning": "NOTE: This release is for Bitcoin Cash, a FORK of Bitcoin that happened on Aug 1,2017!  Bitcoin Cash is a better bitcoin, delivering onchain scalability that has resulted in penny transaction fees and fast confirmations."
         },
@@ -566,6 +567,7 @@
         "source": "source code",
         "notes": {
             "title": "Release Notes",
+            "releasenotes_buc_1_4_0_0": "BUcash 1.4.0.0: Release notes are ",
             "releasenotes_buc_1_3_0_1": "BUcash 1.3.0.1: Release notes are ",
             "releasenotes_buc_1_3_0_0": "BUcash 1.3.0.0: Release notes are ",
             "releasenotes_buc_1_2_0_1": "BUcash 1.2.0.1: Release notes are ",
@@ -605,7 +607,7 @@
         "installation": {
             "title": "Installation Notes",
             "helpZero": "Once you downloaded the file that matches your system in the section above (e.g. 64 bit linux), open a terminal window then type:",
-            "helpOne": "If you're running an Ubuntu system you could use our official repository. It supports four archs - amd64, i386, arm and arm64 - and 3 Ubuntu versions - 14.04, 16.04 and 16.10. To install the binaries from the repository execute these commands from a console:",
+            "helpOne": "If you're running an Ubuntu system you could use our official repository. It supports four archs - amd64, i386, arm and arm64. To install the binaries from the repository execute these commands from a console:",
             "helpTwo": "If you want to compile from source just follow and execute these commands:"
         },
         "older": {
